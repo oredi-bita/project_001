@@ -1,0 +1,41 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-content: center;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    
+
+}
+
+#add_todo_tbn{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    align-content: center;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+}
+.todo_element{
+    display: flex;
+    gap: 10px;
+    width: 250px;
+    justify-content: space-between;
+    border: 1px solid gainsboro;
+    padding: 8px;
+    border-radius: 5px;
+}
+.todo{    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
